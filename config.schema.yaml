@@ -1,0 +1,25 @@
+  consumer_key:
+    description: "Your consumer key."
+    type: "string"
+    required: true
+    secret: true
+  consumer_secret:
+    description: "Your consumer secret."
+    type: "string"
+    required: true
+    secret: true
+  access_token:
+    description: "Your access token."
+    type: "string"
+    required: true
+    secret: true
+  access_token_secret:
+    description: "Your access token secret."
+    type: "string"
+    required: true
+    secret: true
+  twitter_user_id:
+    description: "twitter id"
+    type: "string"
+    required: true
+    default: "StackstormD"
